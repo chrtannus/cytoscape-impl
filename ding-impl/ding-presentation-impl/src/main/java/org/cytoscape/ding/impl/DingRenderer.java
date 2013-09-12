@@ -50,4 +50,9 @@ public class DingRenderer implements NetworkViewRenderer {
 	public String getId() {
 		return ID;
 	}
+	
+	@Override
+	public String toString() {
+		return getId(); // TODO Use display name
+	}
 }

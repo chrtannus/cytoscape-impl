@@ -210,6 +210,7 @@ public class CyActivator extends AbstractCyActivator {
 		NetworkPanel networkPanel = new NetworkPanel(cyApplicationManagerServiceRef,
 		                                             cyNetworkManagerServiceRef,
 		                                             cyNetworkViewManagerServiceRef,
+		                                             renderingEngineManagerServiceRef,
 		                                             birdsEyeViewHandler,
 		                                             dialogTaskManagerServiceRef,
 		                                             dynamicTaskFactoryProvisionerServiceRef,
